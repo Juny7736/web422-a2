@@ -37,7 +37,11 @@ export default function About(props) {
       </Card>
       <br />
 
-      <BookDetails book={props.book} />
+      <BookDetails
+        book={props.book}
+        workId="OL27482W"
+        showFavouriteBtn={false}
+      />
     </>
   );
 }

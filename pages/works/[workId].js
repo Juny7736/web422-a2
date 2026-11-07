@@ -23,7 +23,7 @@ export default function Work() {
   return (
     <>
       <PageHeader text={data.title} />
-      <BookDetails book={data} />
+      <BookDetails book={data} workId={workId} />
     </>
   );
 }
